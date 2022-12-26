@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container.data-v-16d08dab {
+  height: 100%;
+  width: 750rpx;
+  background-color: red;
+}
+

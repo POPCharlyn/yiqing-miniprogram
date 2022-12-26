@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "path": "pages/package/index",
+      "style": {
+        "navigationBarTitleText": "包裹"
+      }
+    },
+    {
+      "path": "pages/package/addPackageUser",
+      "style": {
+        "navigationBarTitleText": "预约取件"
+      }
+    },
+    {
+      "path": "pages/delivery/index",
+      "style": {
+        "navigationBarTitleText": "配送"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/user/address-user",
+      "style": {
+        "navigationBarTitleText": "收货地址"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#b8b8b8",
+    "selectedColor": "#3a86b9",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/package/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/package.png",
+        "selectedIconPath": "static/tabbar/package-sel.png"
+      },
+      {
+        "pagePath": "pages/delivery/index",
+        "text": "配送",
+        "iconPath": "static/tabbar/delivery.png",
+        "selectedIconPath": "static/tabbar/delivery-sel.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-sel.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "WhaleDynamic",
+    "navigationBarBackgroundColor": "#3399ff",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  }
+}

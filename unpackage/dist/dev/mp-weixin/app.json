@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/package/index",
+    "pages/package/addPackageUser",
+    "pages/delivery/index",
+    "pages/user/index",
+    "pages/user/address-user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "WhaleDynamic",
+    "navigationBarBackgroundColor": "#3399ff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#b8b8b8",
+    "selectedColor": "#3a86b9",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/package/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/package.png",
+        "selectedIconPath": "static/tabbar/package-sel.png"
+      },
+      {
+        "pagePath": "pages/delivery/index",
+        "text": "配送",
+        "iconPath": "static/tabbar/delivery.png",
+        "selectedIconPath": "static/tabbar/delivery-sel.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-sel.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

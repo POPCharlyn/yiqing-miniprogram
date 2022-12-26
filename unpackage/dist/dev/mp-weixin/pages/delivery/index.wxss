@@ -1,0 +1,11 @@
+
+.start-express.data-v-7c6df030{
+  background-color: #0081ff;
+  color: #FFFFFF;
+  width: 500rpx;
+  font-size: 32rpx;
+  margin-bottom: 0;
+  z-index: 100;
+  border-radius: 25px;
+}
+
